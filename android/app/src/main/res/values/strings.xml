@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tasks</string>
+    <string name="facebook_app_id">1681693458834525</string>
+    <string name="fb_login_protocol_scheme">fb1681693458834525</string>
+    <string name="facebook_client_token">809cc8df8dc9f86fcbb68e237ce514db</string>
+</resources>

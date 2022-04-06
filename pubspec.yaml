@@ -1,0 +1,93 @@
+name: tasks
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+##############################################
+version: 1.0.0+1
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.1
+  cupertino_icons: ^1.0.4
+  get_storage: ^2.0.3
+  flutter_local_notifications: ^9.4.0
+  flutter_native_timezone: ^2.0.0
+  intl: ^0.17.0
+  google_fonts: ^2.3.1
+  date_picker_timeline: ^1.2.3
+  sqflite: ^2.0.2
+  flutter_staggered_animations: ^1.0.0
+  flutter_svg: ^1.0.3
+  rxdart: ^0.27.3
+  cloud_firestore: ^3.1.10
+  firebase_auth: ^3.3.11
+  google_sign_in: ^5.2.4
+  flutter_login_facebook: ^1.4.1
+  flutter_bloc: ^8.0.1
+  dio: ^4.0.4
+  conditional_builder_null_safety: ^0.0.6
+  url_launcher: ^6.0.20
+  hexcolor: ^2.0.6
+  flutter_launcher_icons: ^0.9.2
+  flutter_lints: ^1.0.4
+  shared_preferences: ^2.0.13
+  another_flushbar: ^1.10.28
+  carousel_slider: ^4.0.0
+  flutter_styled_toast: ^2.0.0
+  image_picker: ^0.8.4+11
+  anim_search_bar: ^2.0.2
+  material_floating_search_bar: ^0.3.7
+  webview_flutter: ^3.0.1
+  flutter_colorpicker: ^1.0.3
+
+
+
+##################################
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+###################################
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/icons/person.jpeg"
+  image_path_ios: "assets/icons/person.jpeg"
+
+##################################
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/person.jpeg
+    - assets/icons/task.svg
+    - assets/icons/aaa.png
+    - assets/icons/facebook.png
+    - assets/icons/google.jpg
+    - assets/icons/image.png
+    - assets/icons/cart.png
+    - assets/icons/person2.png
+    - assets/icons/path.png
+    - assets/images/itemnotfound.png
+    - assets/images/no_connection.png
+    - assets/images/no_favorites.png
+    - assets/images/no_history.png
+    - assets/images/splash.png
+    - assets/images/sign.png
+    - assets/images/login.png
+    - assets/icons/task.svg
+    - assets/fonts/
+
+  fonts:
+    - family: LeagueGothic-Regular
+      fonts:
+        - asset: assets/fonts/LeagueGothic-Regular.ttf
+          style: italic
+    - family: Lobster-Regular
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+          style: italic
