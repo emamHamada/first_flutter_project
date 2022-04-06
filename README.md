@@ -1,4 +1,5 @@
-# tasks
+# news app
+getX _Bloc _Notification _authintication _news api _wep view _color picker _date picher _ and so more
 
 A new Flutter project.
 
